@@ -1,2 +1,49 @@
+- settings for utf8
+- zynga settings->ui->hideFooter = 1
+
+
+
 new
 new11
+
+
+  <td>
+        <a href="{include file="lang:emailFaqUrl"}">FAQ</a>
+</td>
+<td>
+        <a href="{include file="lang:contactUsLink"}">Contact Us</a>
+</td>
+<td>
+        <a href="{url controller='gift' method='terms' direct='true'}">Terms and Conditions</a>
+</td>
+<td>
+        <a href="{url controller='gift' method='terms' direct='true'}#privacyPolicy">Privacy Policy</a>
+</td>
+<td>
+        <a href="http://groupcardapps.com/"><img src="https://gc-fgs.s3.amazonaws.com/victoriassecret/assets/powered_by_gca.png" border="0" alt="GroupCard" /></a>
+</td>
+
+
+post /
+
+
+#footerLinks li {border-left:0;padding-right:15px;float:left;display:block}
+
+#footerlinks li
+a{padding:0;color:#626262;text-decoration:none;line-height:26px;display:block}
+
+#footerlinks li.first a {
+	border:0;
+	background:transparent url(//gc-fgs.s3.amazonaws.com/victoriassecret/assets/tiny_gc.gif) no-repeat scroll center left;
+	padding-left:22px;color:#f35c93;text-decoration:none;font-weight:bold
+}
+html #footerlinks li.last a, html #footerlinks li.last
+div {
+	width:76px;height:26px;
+	background:transparent url(//gc-fgs.s3.amazonaws.com/victoriassecret/assets/powered_by_gca.png) no-repeat scroll center
+}
+html #footerlinks
+li.fb_share {
+float:right;padding-right:0
+
+}html
